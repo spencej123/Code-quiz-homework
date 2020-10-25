@@ -1,0 +1,33 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: content-box;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: aqua;
+    width: 90;
+    height: 90;
+    justify-content: left;
+    display: flex;
+}
+
+.container {
+    margin-top: 20px;
+    padding: 20px;
+    width: 700 px;
+    max-width: 75%;
+    background-color: azure;
+}
+
+.btn-grid {
+    display: grid;
+    gap: 15px;
+    margin: 15px;
+}
+
+.btn {
+    border-color: black;
+}
+
+.conceal {
+    display: none;
+}
