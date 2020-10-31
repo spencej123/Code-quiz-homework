@@ -10,6 +10,15 @@ body {
     display: flex;
 }
 
+p {
+    background-color: burlywood;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    height: 150px;
+}
+
 #grid {
     margin-top: 20px;
     padding: 20px;

@@ -1,4 +1,18 @@
+let startMinutes = 5;
+let time = startMinutes * 60;
+let
+countdownEl = document.getElementById("countdown");
 
+setInterval(updateCountdown, 1000);
+
+function updateCountdown() {
+    let minutes = Math.floor(time / 60);
+    let seconds = time % 60;
+    countdownEl.innerHTML = `${minutes}: ${seconds}`;
+    time--;
+    seconds = seconds < 10 ? "0" + seconds : seconds;
+    time = time < 0 ? 0 : time; 
+}
 function Quiz(questions) {
     this.score = 0;
     this.questions = questions;
