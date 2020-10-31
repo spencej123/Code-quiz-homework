@@ -10,7 +10,7 @@ body {
     display: flex;
 }
 
-.container {
+#grid {
     margin-top: 20px;
     padding: 20px;
     width: 700 px;
@@ -18,7 +18,7 @@ body {
     background-color: azure;
 }
 
-.btn-grid {
+#buttons {
     display: grid;
     gap: 15px;
     margin: 15px;

@@ -93,28 +93,7 @@ populate();
 
 
   
-  document.getElementById("initials-button").addEventListener("click", saveScore);
   
- 
-  function saveScore() {
-    let userInitials = document.querySelector("#initial-input").value;
-    let finalScore = countDown;
-  
-  
-    let scoreObject = { initials: userInitials, score: finalScore };
-  
-    let highScores = localStorage.getItem("highScoreList");
-  
-    if (highScores == null) {
-      localStorage.setItem("highScoreList", JSON.stringify([scoreObject]));
-      console.log(highScores);
-    } else {
-      highScoreList = JSON.parse(highScores);
-      console.log(typeof highScoreList);
-      highScoreList.push(scoreObject);
-      localStorage.setItem("highScoreList", JSON.stringify(highScoreList));
-    }
-  }
 
 
 
