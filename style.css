@@ -3,7 +3,7 @@ body {
     margin: 0;
     box-sizing: content-box;
     font-family: 'Times New Roman', Times, serif;
-    background-color: aqua;
+    background-color: yellow;
     width: 90;
     height: 90;
     justify-content: left;
@@ -24,10 +24,5 @@ body {
     margin: 15px;
 }
 
-.btn {
-    border-color: black;
-}
 
-.conceal {
-    display: none;
-}
+
